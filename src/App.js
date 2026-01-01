@@ -1,6 +1,6 @@
 import React from "react";
 import LearningNavigator from "./LearningNavigator";
-import "./index.css"; // Optional: If you have global styles
+import "./index.css";
 
 function App() {
   return (
