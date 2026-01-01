@@ -15,9 +15,7 @@ const LearningMap = ({
   const gRef = useRef(null);
   const zoomBehaviorRef = useRef(null);
   const currentZoomState = useRef({ k: 1, x: 0, y: 0 });
-
-  // Destructure viewStates so we can use primitives in useEffect deps
-  // This prevents the map from re-rendering just because the object reference changed
+  
   const { showJourney, showTAs, isPlaying } = viewStates;
 
   useEffect(() => {
